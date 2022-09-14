@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-         \App\Models\Vandor::factory(10)->create();
+         \App\Models\Address::factory(20)->create();
 
         // \App\Models\User::factory()->create([
         //     'name' => 'Test User',
